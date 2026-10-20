@@ -1,0 +1,14 @@
+{
+  "latest": "2.1.1",
+  "mandatory": false,
+  "notes": [
+    "TruckersMP: nuevo horario de luces (ETS2 18:00–06:59, ATS 19:00–07:59)",
+    "Revisión de privacidad y enlaces al repositorio nuevo",
+    "Botones de la ventana arreglados y sin parpadeos",
+    "Intermitentes sin retraso en cabina, tableros y overlay",
+    "TruckersMP: nuevo horario de luces y más avisos (inactividad, remolques, bans…)"
+  ],
+  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/latest/download/XitoTruckHub-Setup.exe",
+  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/latest/download/XitoTruckHub.apk",
+  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/latest"
+}
