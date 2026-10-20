@@ -1,15 +1,35 @@
 {
-  "latest": "2.1.4",
+  "latest": "2.1.7",
   "mandatory": false,
   "notes": [
-    "Intermitentes y emergencia exactos en el móvil: el PC mide cada destello y el móvil ajusta su reloj, aunque lleguen pocos datos",
-    "Testigos de los tableros que se encienden al instante",
-    "Detecta los choques (con la velocidad y el daño del golpe) y cuando se cala el motor; también como testigos para los tableros",
-    "Rutas por carretera de verdad: se arregla el caso en que salían en línea recta (mapa bloqueado o guardado vacío) y ya no se dibujan rectas hacia el destino",
-    "Tu camión ya no sale repetido como otro jugador en el mapa ni en el mini mapa (aunque no hayas puesto tu ID de TruckersMP)",
-    "Jugadores de TruckersMP alrededor más fluidos: se mueven continuamente según su velocidad en lugar de saltar"
+    "Nueva barra en la zona de la barra de tareas: velocidad, límite, marcha, testigos, destino, combustible, descanso, daños, nota, tráfico y hora, siempre encima y sin estorbar a los clics",
+    "La barra se configura en Ajustes → Overlay: posición, separación del borde, fondo, tamaño y qué mostrar (también desde el icono de la bandeja)",
+    "Overlay mucho más ligero: se redibuja a la fluidez elegida (30 por defecto) en vez de a los Hz del monitor y solo toca lo que cambia (10 veces menos cambios y 8 veces menos cálculo de diseño)",
+    "Sin sombras ni animaciones caras en el velocímetro y cada widget en su propia capa",
+    "Con el juego cerrado el overlay se oculta del todo"
   ],
   "changes": {
+    "2.1.7": [
+      "Nueva barra en la zona de la barra de tareas: velocidad, límite, marcha, testigos, destino, combustible, descanso, daños, nota, tráfico y hora, siempre encima y sin estorbar a los clics",
+      "La barra se configura en Ajustes → Overlay: posición, separación del borde, fondo, tamaño y qué mostrar (también desde el icono de la bandeja)",
+      "Overlay mucho más ligero: se redibuja a la fluidez elegida (30 por defecto) en vez de a los Hz del monitor y solo toca lo que cambia (10 veces menos cambios y 8 veces menos cálculo de diseño)",
+      "Sin sombras ni animaciones caras en el velocímetro y cada widget en su propia capa",
+      "Con el juego cerrado el overlay se oculta del todo"
+    ],
+    "2.1.6": [
+      "Jugadores de TruckersMP en el mapa y el mini mapa sin tirones: ya no se deslizan y vuelven atrás; se mueven continuos según su velocidad y su giro (probado con datos reales)",
+      "Nota de conducción nueva por categorías: velocidad, suavidad, seguridad, cuidado del camión, normas y eficiencia, con consejos para mejorar",
+      "Los frenazos, acelerones y curvas rápidas se miden con la aceleración real del juego; los choques, calados, luces de noche y el ralentí también cuentan",
+      "Nivel de conductor más justo: los viajes largos y las notas altas dan más puntos, y ves tus puntos fuertes y débiles",
+      "Correcciones varias en la interfaz"
+    ],
+    "2.1.5": [
+      "Tableros en tiempo real: el móvil recibe hasta 30 datos por segundo con un tablero abierto (antes 5) y el juego se lee 40 veces por segundo",
+      "Si la conexión con el PC se queda colgada (Wi‑Fi dormida, cambio de red…) se reconecta sola en unos segundos en vez de congelar los datos",
+      "Aviso en el tablero cuando no llegan datos: sin conexión con el PC o juego cerrado",
+      "Por internet, la telemetría va el doble de rápido mientras tienes un tablero abierto",
+      "Mensajes más ligeros y la app gasta menos batería en segundo plano"
+    ],
     "2.1.4": [
       "Intermitentes y emergencia exactos en el móvil: el PC mide cada destello y el móvil ajusta su reloj, aunque lleguen pocos datos",
       "Testigos de los tableros que se encienden al instante",
@@ -93,28 +113,10 @@
       "Temporizador de descanso con notificación fija propia: cuenta atrás en directo, hora de fin y botón «Parar»",
       "Más animaciones: onda al pulsar, números que cuentan, listas y títulos que entran suaves, ventanas y paneles con transición",
       "Las tarjetas se elevan al pasar el ratón en el PC y los indicadores de conexión laten"
-    ],
-    "1.5.9": [
-      "Nueva sección Herramientas, sin necesidad del PC: planificador de viaje (tiempo, pausas, combustible y gasto), temporizador de descanso con aviso, conversor de unidades, tiempo del juego y notas",
-      "TruckersMP guarda una copia: si no hay conexión (o hay bloqueos por el fútbol) se muestran los últimos datos",
-      "Menú inferior con indicador que se desliza, iconos con animación y sin el recuadro al tocar",
-      "Las tarjetas entran con una animación suave y escalonada al cambiar de sección",
-      "Arreglado el texto de la Botonera que se montaba sobre el aviso de conexión"
-    ],
-    "1.5.8": [
-      "Android a pantalla completa: la barra de estado y la de navegación son transparentes y la app ocupa toda la pantalla"
-    ],
-    "1.5.6": [
-      "Más rendimiento en el juego: el overlay deja de trabajar cuando está oculto, solo redibuja el mini mapa si algo cambia y ya no usa desenfoques",
-      "Con la ventana del HUB minimizada o en la bandeja no se repinta nada",
-      "Todos los procesos del HUB funcionan con prioridad baja: el juego siempre va primero",
-      "Las rutas se calculan en un hilo aparte: la telemetría y el HUB ya no se congelan mientras tanto",
-      "El mapa de carreteras se guarda en el disco: las rutas siguientes se calculan en una fracción de segundo",
-      "Mucha menos memoria para calcular rutas (unas 30 veces menos)"
     ]
   },
-  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.4/XitoTruckHub-Setup-2.1.4.exe",
-  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.4/XitoTruckHub-2.1.4.apk",
-  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.1.4",
+  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.7/XitoTruckHub-Setup-2.1.7.exe",
+  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.7/XitoTruckHub-2.1.7.apk",
+  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.1.7",
   "date": "2026-10-20"
 }
