@@ -1,14 +1,120 @@
 {
-  "latest": "2.1.2",
+  "latest": "2.1.4",
   "mandatory": false,
   "notes": [
-    "TruckersMP: nuevo horario de luces (ETS2 18:00–06:59, ATS 19:00–07:59)",
-    "Revisión de privacidad y enlaces al repositorio nuevo",
-    "Botones de la ventana arreglados y sin parpadeos",
-    "Intermitentes sin retraso en cabina, tableros y overlay",
-    "TruckersMP: nuevo horario de luces y más avisos (inactividad, remolques, bans…)"
+    "Intermitentes y emergencia exactos en el móvil: el PC mide cada destello y el móvil ajusta su reloj, aunque lleguen pocos datos",
+    "Testigos de los tableros que se encienden al instante",
+    "Detecta los choques (con la velocidad y el daño del golpe) y cuando se cala el motor; también como testigos para los tableros",
+    "Rutas por carretera de verdad: se arregla el caso en que salían en línea recta (mapa bloqueado o guardado vacío) y ya no se dibujan rectas hacia el destino",
+    "Tu camión ya no sale repetido como otro jugador en el mapa ni en el mini mapa (aunque no hayas puesto tu ID de TruckersMP)",
+    "Jugadores de TruckersMP alrededor más fluidos: se mueven continuamente según su velocidad en lugar de saltar"
   ],
-  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/latest/download/XitoTruckHub-Setup.exe",
-  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/latest/download/XitoTruckHub.apk",
-  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/latest"
+  "changes": {
+    "2.1.4": [
+      "Intermitentes y emergencia exactos en el móvil: el PC mide cada destello y el móvil ajusta su reloj, aunque lleguen pocos datos",
+      "Testigos de los tableros que se encienden al instante",
+      "Detecta los choques (con la velocidad y el daño del golpe) y cuando se cala el motor; también como testigos para los tableros",
+      "Rutas por carretera de verdad: se arregla el caso en que salían en línea recta (mapa bloqueado o guardado vacío) y ya no se dibujan rectas hacia el destino",
+      "Tu camión ya no sale repetido como otro jugador en el mapa ni en el mini mapa (aunque no hayas puesto tu ID de TruckersMP)",
+      "Jugadores de TruckersMP alrededor más fluidos: se mueven continuamente según su velocidad en lugar de saltar"
+    ],
+    "2.1.3": [
+      "Actualizaciones: se descarga siempre el instalador exacto de la versión nueva, nunca uno anterior",
+      "Ya no avisa de una versión hasta que GitHub ha terminado de publicarla",
+      "El aviso de actualización muestra las novedades de cada versión que te saltas",
+      "Instalador: no instala por encima una versión igual o más antigua y dice claramente cuál tienes",
+      "Tableros a pantalla completa de verdad en el móvil: sin barra de estado ni de navegación",
+      "Tableros adaptativos: llenan toda la pantalla sea cual sea su forma, sin franjas negras ni deformar los relojes (botón ⛶ para ver el tamaño original)"
+    ],
+    "2.1.2": [
+      "Premium: aviso claro si pegas algo que no es un código de licencia"
+    ],
+    "2.1.1": [
+      "TruckersMP: horario de luces actualizado (ETS2 de 18:00 a 06:59, ATS de 19:00 a 07:59)",
+      "Revisión de privacidad: sin datos personales en la app ni en el código",
+      "Enlaces y actualizaciones apuntan al repositorio nuevo"
+    ],
+    "2.1.0": [
+      "Windows: los botones de minimizar, maximizar y cerrar vuelven a funcionar, ahora con el aspecto de Windows 11",
+      "Se acabaron los parpadeos: las tarjetas, notas y etiquetas ya no se vuelven a dibujar ni a animar cada pocos segundos",
+      "Intermitentes sin retraso y al ritmo exacto del juego en la cabina, los tableros y el overlay",
+      "TruckersMP: horario oficial de luces obligatorias (§5.1) con aviso de expulsión, que se actualiza solo si TruckersMP lo cambia, y también se puede poner a mano",
+      "Nuevos avisos de TruckersMP: expulsión por inactividad, demasiados remolques, carga con peso negativo, zonas con 25+ jugadores, logros nuevos y bans",
+      "Las normas solo avisan cuando juegas en TruckersMP; la barra de ruta muestra tu servidor y su ocupación",
+      "Tema personalizado: elige el color de fondo y el HUB calcula el resto",
+      "Barras de desplazamiento finas que solo aparecen al usarlas",
+      "Sonidos nuevos hechos desde cero: Cabina moderna, Radio CB y versiones mejoradas de los demás; toque al pulsar y tic-tac del intermitente opcionales",
+      "Más de programa y menos de web: sin zoom ni recargas de navegador, sin seleccionar texto por error, sin menú del navegador y efecto Mica opcional en Windows 11",
+      "Tableros: widgets nuevos (Anillo y TruckersMP), plantillas Europeo y Botonera completa, guías para alinear al mover y zoom con Ctrl + rueda",
+      "Arrastra un archivo .xitotruckdash sobre la ventana para importarlo",
+      "Centro de avisos con filtros (Conducción, Trabajos, TruckersMP)"
+    ],
+    "2.0.0": [
+      "Nueva estética completa: cuadro de instrumentos, menú por secciones, letra de señal de carretera y dos temas nuevos (Asfalto y Ruta 66)",
+      "Tableros al estilo SimHub: diseña pantallas en el PC con velocímetros, cuentarrevoluciones, barras, testigos, luces de cambio, pedales, fuerzas G, gráficas, destino y botones táctiles",
+      "Editor de tableros: arrastrar y soltar, varias pantallas por tablero, rejilla, deshacer, alinear, copiar y pegar, imágenes y fondos",
+      "Archivos .xitotruckdash: exporta tus tableros y ábrelos en el móvil (también desde WhatsApp, Drive o Archivos)",
+      "Visor a pantalla completa en el móvil: gira solo, desliza para cambiar de pantalla y no deja que se apague",
+      "En el PC, un tablero puede abrirse en otra ventana (segundo monitor) o en OBS",
+      "Barra de ruta siempre visible en el PC: velocidad, límite, marcha, destino con progreso y hora, con la línea del carril moviéndose a tu velocidad",
+      "Buscador de comandos (Ctrl+K): salta a cualquier sección, tablero, tema o acción",
+      "Centro de avisos: las multas, entregas y alertas quedan guardadas para verlas después",
+      "Estadísticas: esta semana frente a la anterior y tarjeta de conductor para compartir",
+      "Atajos nuevos: Ctrl+K, ? para ver todos y Ctrl+B para el menú compacto",
+      "Revisión completa: decenas de pequeños fallos corregidos en el PC y en Android"
+    ],
+    "1.8.0": [
+      "Xito Truck Hub Premium: acceso remoto, ruta real del GPS, convoy, bot de la VTC, botonera, recorridos, overlay completo, temas y exportar a Excel",
+      "7 días de prueba gratis de todo lo Premium",
+      "Códigos de licencia y de promoción (Ajustes → Premium), también en el móvil sin PC"
+    ],
+    "1.7.1": [
+      "Windows: el menú lateral tiene el mismo indicador deslizante y las mismas animaciones que el móvil",
+      "Detalles: el logo y los botones de la ventana reaccionan al pasar el ratón"
+    ],
+    "1.7.0": [
+      "Ruta REAL del GPS del juego: el HUB la lee de la memoria (solo lectura, permitido por TruckersMP) y la dibuja en el mini mapa y en el mapa",
+      "Funciona también en conducción libre y cuando cambias el destino en el GPS; los tramos se ajustan a las carreteras",
+      "Si tu versión del juego no es compatible, se usa la ruta calculada como hasta ahora (y se puede arreglar desde GitHub sin nueva versión)",
+      "Ajustes → Overlay: interruptor «Leer la ruta real del GPS del juego» con su estado"
+    ],
+    "1.6.2": [
+      "Móvil sin PC: TruckersMP, el mapa en vivo y los jugadores vuelven a cargar (se usa un navegador interno cuando Cloudflare rechaza la petición)",
+      "Tráfico: los nombres de las zonas ya no desaparecen con letra grande; la etiqueta va debajo del nombre",
+      "Si el mapa no puede cargar, lo dice dentro del propio mapa y lo reintenta solo"
+    ],
+    "1.6.1": [
+      "Tráfico funciona en el móvil sin el PC (zonas más concurridas de todos los servidores)",
+      "Si la zona de tráfico no carga, se explica el motivo y hay un botón «Reintentar» (antes se quedaba cargando)",
+      "Se reconoce cuándo tu operador bloquea TruckersMP por el fútbol y se dice claramente",
+      "Arreglados los avisos con doble marco dentro de otras tarjetas (Entregas, Eventos, Tráfico)"
+    ],
+    "1.6.0": [
+      "Temporizador de descanso con notificación fija propia: cuenta atrás en directo, hora de fin y botón «Parar»",
+      "Más animaciones: onda al pulsar, números que cuentan, listas y títulos que entran suaves, ventanas y paneles con transición",
+      "Las tarjetas se elevan al pasar el ratón en el PC y los indicadores de conexión laten"
+    ],
+    "1.5.9": [
+      "Nueva sección Herramientas, sin necesidad del PC: planificador de viaje (tiempo, pausas, combustible y gasto), temporizador de descanso con aviso, conversor de unidades, tiempo del juego y notas",
+      "TruckersMP guarda una copia: si no hay conexión (o hay bloqueos por el fútbol) se muestran los últimos datos",
+      "Menú inferior con indicador que se desliza, iconos con animación y sin el recuadro al tocar",
+      "Las tarjetas entran con una animación suave y escalonada al cambiar de sección",
+      "Arreglado el texto de la Botonera que se montaba sobre el aviso de conexión"
+    ],
+    "1.5.8": [
+      "Android a pantalla completa: la barra de estado y la de navegación son transparentes y la app ocupa toda la pantalla"
+    ],
+    "1.5.6": [
+      "Más rendimiento en el juego: el overlay deja de trabajar cuando está oculto, solo redibuja el mini mapa si algo cambia y ya no usa desenfoques",
+      "Con la ventana del HUB minimizada o en la bandeja no se repinta nada",
+      "Todos los procesos del HUB funcionan con prioridad baja: el juego siempre va primero",
+      "Las rutas se calculan en un hilo aparte: la telemetría y el HUB ya no se congelan mientras tanto",
+      "El mapa de carreteras se guarda en el disco: las rutas siguientes se calculan en una fracción de segundo",
+      "Mucha menos memoria para calcular rutas (unas 30 veces menos)"
+    ]
+  },
+  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.4/XitoTruckHub-Setup-2.1.4.exe",
+  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.4/XitoTruckHub-2.1.4.apk",
+  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.1.4",
+  "date": "2026-10-20"
 }
