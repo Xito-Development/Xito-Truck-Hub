@@ -1,16 +1,15 @@
 {
-  "latest": "2.2.0",
+  "latest": "2.2.1",
   "mandatory": false,
   "notes": [
-    "Llegada a TU ritmo: el HUB aprende cómo conduces (paradas cortas incluidas, descansos y repostajes fuera) y te dice cuánto te falta, a qué hora llegas y si llegas a tiempo al plazo",
-    "Nuevo widget «Mapa en vivo» para los tableros, como los dashes de SimHub: el mapa real, tu camión fluido en el centro, la ruta, gasolineras, talleres, ciudades y los jugadores de TruckersMP moviéndose con suavidad",
-    "Nueva plantilla «Navegador»: mapa grande con velocidad, límite, marcha, destino y llegada",
-    "Modo navegación en el Mapa (botón de la diana): el mapa gira contigo y se acerca o aleja solo según la velocidad",
-    "Mini mapa del overlay renovado con el mismo motor: más fluido, nombres de empresas al acercar y zoom automático opcional",
-    "Compatible con los DLC oficiales de SCS: el mapa (teselas y límites) se actualiza desde el repositorio sin sacar versión, y los límites cubren zonas nuevas",
-    "Tu camión en el Mapa ya no va con retraso: se mueve fluido entre dato y dato"
+    "Premium más seguro: cada código se vuelve a comprobar con su firma, la prueba gratis no se reinicia borrando datos y atrasar el reloj no alarga nada",
+    "Los códigos filtrados se pueden anular desde premium.json sin sacar versión"
   ],
   "changes": {
+    "2.2.1": [
+      "Premium más seguro: cada código se vuelve a comprobar con su firma, la prueba gratis no se reinicia borrando datos y atrasar el reloj no alarga nada",
+      "Los códigos filtrados se pueden anular desde premium.json sin sacar versión"
+    ],
     "2.2.0": [
       "Llegada a TU ritmo: el HUB aprende cómo conduces (paradas cortas incluidas, descansos y repostajes fuera) y te dice cuánto te falta, a qué hora llegas y si llegas a tiempo al plazo",
       "Nuevo widget «Mapa en vivo» para los tableros, como los dashes de SimHub: el mapa real, tu camión fluido en el centro, la ruta, gasolineras, talleres, ciudades y los jugadores de TruckersMP moviéndose con suavidad",
@@ -113,16 +112,10 @@
       "Móvil sin PC: TruckersMP, el mapa en vivo y los jugadores vuelven a cargar (se usa un navegador interno cuando Cloudflare rechaza la petición)",
       "Tráfico: los nombres de las zonas ya no desaparecen con letra grande; la etiqueta va debajo del nombre",
       "Si el mapa no puede cargar, lo dice dentro del propio mapa y lo reintenta solo"
-    ],
-    "1.6.1": [
-      "Tráfico funciona en el móvil sin el PC (zonas más concurridas de todos los servidores)",
-      "Si la zona de tráfico no carga, se explica el motivo y hay un botón «Reintentar» (antes se quedaba cargando)",
-      "Se reconoce cuándo tu operador bloquea TruckersMP por el fútbol y se dice claramente",
-      "Arreglados los avisos con doble marco dentro de otras tarjetas (Entregas, Eventos, Tráfico)"
     ]
   },
-  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.0/XitoTruckHub-Setup-2.2.0.exe",
-  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.0/XitoTruckHub-2.2.0.apk",
-  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.2.0",
+  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.1/XitoTruckHub-Setup-2.2.1.exe",
+  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.1/XitoTruckHub-2.2.1.apk",
+  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.2.1",
   "date": "2026-10-30"
 }
