@@ -1,14 +1,25 @@
 {
-  "latest": "2.1.7",
+  "latest": "2.2.0",
   "mandatory": false,
   "notes": [
-    "Nueva barra en la zona de la barra de tareas: velocidad, límite, marcha, testigos, destino, combustible, descanso, daños, nota, tráfico y hora, siempre encima y sin estorbar a los clics",
-    "La barra se configura en Ajustes → Overlay: posición, separación del borde, fondo, tamaño y qué mostrar (también desde el icono de la bandeja)",
-    "Overlay mucho más ligero: se redibuja a la fluidez elegida (30 por defecto) en vez de a los Hz del monitor y solo toca lo que cambia (10 veces menos cambios y 8 veces menos cálculo de diseño)",
-    "Sin sombras ni animaciones caras en el velocímetro y cada widget en su propia capa",
-    "Con el juego cerrado el overlay se oculta del todo"
+    "Llegada a TU ritmo: el HUB aprende cómo conduces (paradas cortas incluidas, descansos y repostajes fuera) y te dice cuánto te falta, a qué hora llegas y si llegas a tiempo al plazo",
+    "Nuevo widget «Mapa en vivo» para los tableros, como los dashes de SimHub: el mapa real, tu camión fluido en el centro, la ruta, gasolineras, talleres, ciudades y los jugadores de TruckersMP moviéndose con suavidad",
+    "Nueva plantilla «Navegador»: mapa grande con velocidad, límite, marcha, destino y llegada",
+    "Modo navegación en el Mapa (botón de la diana): el mapa gira contigo y se acerca o aleja solo según la velocidad",
+    "Mini mapa del overlay renovado con el mismo motor: más fluido, nombres de empresas al acercar y zoom automático opcional",
+    "Compatible con los DLC oficiales de SCS: el mapa (teselas y límites) se actualiza desde el repositorio sin sacar versión, y los límites cubren zonas nuevas",
+    "Tu camión en el Mapa ya no va con retraso: se mueve fluido entre dato y dato"
   ],
   "changes": {
+    "2.2.0": [
+      "Llegada a TU ritmo: el HUB aprende cómo conduces (paradas cortas incluidas, descansos y repostajes fuera) y te dice cuánto te falta, a qué hora llegas y si llegas a tiempo al plazo",
+      "Nuevo widget «Mapa en vivo» para los tableros, como los dashes de SimHub: el mapa real, tu camión fluido en el centro, la ruta, gasolineras, talleres, ciudades y los jugadores de TruckersMP moviéndose con suavidad",
+      "Nueva plantilla «Navegador»: mapa grande con velocidad, límite, marcha, destino y llegada",
+      "Modo navegación en el Mapa (botón de la diana): el mapa gira contigo y se acerca o aleja solo según la velocidad",
+      "Mini mapa del overlay renovado con el mismo motor: más fluido, nombres de empresas al acercar y zoom automático opcional",
+      "Compatible con los DLC oficiales de SCS: el mapa (teselas y límites) se actualiza desde el repositorio sin sacar versión, y los límites cubren zonas nuevas",
+      "Tu camión en el Mapa ya no va con retraso: se mueve fluido entre dato y dato"
+    ],
     "2.1.7": [
       "Nueva barra en la zona de la barra de tareas: velocidad, límite, marcha, testigos, destino, combustible, descanso, daños, nota, tráfico y hora, siempre encima y sin estorbar a los clics",
       "La barra se configura en Ajustes → Overlay: posición, separación del borde, fondo, tamaño y qué mostrar (también desde el icono de la bandeja)",
@@ -108,15 +119,10 @@
       "Si la zona de tráfico no carga, se explica el motivo y hay un botón «Reintentar» (antes se quedaba cargando)",
       "Se reconoce cuándo tu operador bloquea TruckersMP por el fútbol y se dice claramente",
       "Arreglados los avisos con doble marco dentro de otras tarjetas (Entregas, Eventos, Tráfico)"
-    ],
-    "1.6.0": [
-      "Temporizador de descanso con notificación fija propia: cuenta atrás en directo, hora de fin y botón «Parar»",
-      "Más animaciones: onda al pulsar, números que cuentan, listas y títulos que entran suaves, ventanas y paneles con transición",
-      "Las tarjetas se elevan al pasar el ratón en el PC y los indicadores de conexión laten"
     ]
   },
-  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.7/XitoTruckHub-Setup-2.1.7.exe",
-  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.1.7/XitoTruckHub-2.1.7.apk",
-  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.1.7",
-  "date": "2026-10-20"
+  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.0/XitoTruckHub-Setup-2.2.0.exe",
+  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.0/XitoTruckHub-2.2.0.apk",
+  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.2.0",
+  "date": "2026-10-30"
 }
