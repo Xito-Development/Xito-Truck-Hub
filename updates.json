@@ -1,11 +1,22 @@
 {
-  "latest": "2.2.1",
+  "latest": "2.2.3",
   "mandatory": false,
   "notes": [
-    "Premium más seguro: cada código se vuelve a comprobar con su firma, la prueba gratis no se reinicia borrando datos y atrasar el reloj no alarga nada",
-    "Los códigos filtrados se pueden anular desde premium.json sin sacar versión"
+    "Mapa: «Mis rutas» ya no pinta líneas rectas que cortan las curvas; desde ahora se guardan siguiendo la carretera y las antiguas se ocultan al acercar",
+    "Mapa: las manchas de tráfico se ocultan al acercar (ya se ven los jugadores), así no salen círculos sueltos fuera de la carretera",
+    "Mapa: los jugadores de cerca son flechitas que van por la carretera, sin patinar"
   ],
   "changes": {
+    "2.2.3": [
+      "Mapa: «Mis rutas» ya no pinta líneas rectas que cortan las curvas; desde ahora se guardan siguiendo la carretera y las antiguas se ocultan al acercar",
+      "Mapa: las manchas de tráfico se ocultan al acercar (ya se ven los jugadores), así no salen círculos sueltos fuera de la carretera",
+      "Mapa: los jugadores de cerca son flechitas que van por la carretera, sin patinar"
+    ],
+    "2.2.2": [
+      "Los jugadores de TruckersMP ya no «patinan»: van por la carretera siguiendo las curvas, sin deslizarse de lado ni volver hacia atrás",
+      "De cerca, cada jugador es una flechita que mira hacia donde va",
+      "El mini mapa sigue actualizando a los jugadores aunque tu camión esté parado"
+    ],
     "2.2.1": [
       "Premium más seguro: cada código se vuelve a comprobar con su firma, la prueba gratis no se reinicia borrando datos y atrasar el reloj no alarga nada",
       "Los códigos filtrados se pueden anular desde premium.json sin sacar versión"
@@ -101,21 +112,10 @@
     "1.7.1": [
       "Windows: el menú lateral tiene el mismo indicador deslizante y las mismas animaciones que el móvil",
       "Detalles: el logo y los botones de la ventana reaccionan al pasar el ratón"
-    ],
-    "1.7.0": [
-      "Ruta REAL del GPS del juego: el HUB la lee de la memoria (solo lectura, permitido por TruckersMP) y la dibuja en el mini mapa y en el mapa",
-      "Funciona también en conducción libre y cuando cambias el destino en el GPS; los tramos se ajustan a las carreteras",
-      "Si tu versión del juego no es compatible, se usa la ruta calculada como hasta ahora (y se puede arreglar desde GitHub sin nueva versión)",
-      "Ajustes → Overlay: interruptor «Leer la ruta real del GPS del juego» con su estado"
-    ],
-    "1.6.2": [
-      "Móvil sin PC: TruckersMP, el mapa en vivo y los jugadores vuelven a cargar (se usa un navegador interno cuando Cloudflare rechaza la petición)",
-      "Tráfico: los nombres de las zonas ya no desaparecen con letra grande; la etiqueta va debajo del nombre",
-      "Si el mapa no puede cargar, lo dice dentro del propio mapa y lo reintenta solo"
     ]
   },
-  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.1/XitoTruckHub-Setup-2.2.1.exe",
-  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.1/XitoTruckHub-2.2.1.apk",
-  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.2.1",
+  "exe": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.3/XitoTruckHub-Setup-2.2.3.exe",
+  "apk": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/download/v2.2.3/XitoTruckHub-2.2.3.apk",
+  "page": "https://github.com/Xito-Development/Xito-Truck-Hub/releases/tag/v2.2.3",
   "date": "2026-10-30"
 }
